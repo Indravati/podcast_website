@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-size:cover;
+  background-image: url("image.jpg");
+}
+
+.back{
+  /* width:100vw; */
+  height:100vh;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+  /* font-weight: bold; */
+}
+
+nav .logo {
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+nav ul li:last-child a {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: rgb(255, 208, 0);
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+
+nav ul li:last-child a:hover {
+  background-color: yellow;
+  color: #000000;
+}
+
+nav ul li:nth-child(4) a {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: rgb(255, 208, 0);
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+
+nav ul li:nth-child(4) a:hover {
+  background-color: yellow;
+  color: #000000;
+}
+
+/* Hero section starts here */
+
+.hero {
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  color: rgb(44, 41, 36);
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 208, 0);
+  font-size: 4rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding: 5px 5px;
+}
+
+.hero p {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  margin-right: 650px;
+}
+
+.hero a.btn {
+  font-family:'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.hero a.btn:hover {
+  background-color: #ffe600;
+  color: #000000;
+}
+
+.btn{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* Footer starts here */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  width: 250px;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
